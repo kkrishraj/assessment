@@ -1,1 +1,35 @@
+Your Task:
+Objective: Perform CRUD (Create, Read, Update, Delete) operations using Spring Boot, Hibernate, and a MySQL database.
+ 
+Requirements:
+Set up a Spring Boot application:
+Create a new Spring Boot project using Spring Initializer or your preferred method.
+Add dependencies for Spring Web, Spring Data JPA, and MySQL Driver.
 
+Database Configuration:
+Set up a MySQL database and configure your Spring Boot application to connect to it.
+
+Entity Creation:
+Create an entity class (e.g., User) with appropriate fields (e.g., id, name, email, age).
+
+Repository Layer:
+Create a repository interface that extends JpaRepository for the entity class.
+
+Service Layer:
+Implement a service layer that contains business logic for handling CRUD operations.
+
+Controller Layer:
+Create a REST controller that exposes endpoints for each CRUD operation:
+Create a new user (POST)
+Get all users (GET)
+Get a user by ID (GET)
+Update a user (PUT)
+Delete a user (DELETE)
+
+Testing:
+Ensure that each endpoint works correctly by testing with tools like Postman or through integration tests.
+Additional Improvements (Optional but encouraged):
+Implement validation for the entity fields.
+Add error handling to manage scenarios such as entity not found.
+Document your API using Swagger or a similar tool.
+Implement pagination and sorting for the list of users.
