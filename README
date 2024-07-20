@@ -33,3 +33,12 @@ Implement validation for the entity fields.
 Add error handling to manage scenarios such as entity not found.
 Document your API using Swagger or a similar tool.
 Implement pagination and sorting for the list of users.
+
+Test Request: 
+1. create user: localhost:8091/api/users - POST METHOD
+   {"name":"test1","email":"test@test.com","age":22}
+2. get specific user by id: localhost:8091/api/users/2  -  GET METHOD
+3. Update specific user by id: localhost:8091/api/users/2  -   PUT METHOD
+   {"name":"testdfd1","email":"test@test.com","age":22}
+4. Delete user: localhost:8091/api/users/2   -  DELETE METHOD
+
